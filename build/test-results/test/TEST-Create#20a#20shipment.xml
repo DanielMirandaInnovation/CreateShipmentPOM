@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Create a shipment" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-23T03:36:36" hostname="LAPTOP-BNAK8A6Q" time="76.829">
+  <properties/>
+  <testcase name="Create a shipment successful" classname="Create a shipment" time="76.829"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[ago 22, 2021 10:36:40 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFORMACIÓN: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+ago 22, 2021 10:36:40 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFORMACIÓN: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: true, browserName: firefox, firefox_profile: org.openqa.selenium.firefox..., headless: false, loggingPrefs: org.openqa.selenium.logging..., marionette: true, moz:firefoxOptions: {}, platform: ANY, version: }
+1629689805779	geckodriver	INFO	Listening on 127.0.0.1:19099
+1629689806587	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\pcc\\AppData\\Local\\Temp\\rust_mozprofilei3xAuO"
+1629689808057	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pcc\\AppData\\Local\\Temp\\rust_mozprofilei3xAuO\\search.json.mozlz4", (void 0)))
+1629689813477	Marionette	INFO	Listening on port 62294
+1629689814055	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+ago 22, 2021 10:36:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+JavaScript error: https://www.ups.com/ship/?tx=2168093475395478&loc=en_US line 14 > injectedScript, line 2: TypeError: document.querySelector(...) is null
+JavaScript error: https://media-us1.digital.nuance.com/media/launch/tcFramework.min.js?codeVersion=1629354367369, line 30065: SecurityError: Permission denied to access property "CEAPI_POST_CHAT_SURVEY_DATA" on cross-origin object
+JavaScript error: https://media-us1.digital.nuance.com/media/launch/tcFramework.min.js?codeVersion=1629354367369, line 30065: SecurityError: Permission denied to access property "CEAPI_POST_CHAT_SURVEY_DATA" on cross-origin object
+JavaScript error: https://media-us1.digital.nuance.com/media/launch/tcFramework.min.js?codeVersion=1629354367369, line 30065: SecurityError: Permission denied to access property "CEAPI_POST_CHAT_SURVEY_DATA" on cross-origin object
+JavaScript error: https://media-us1.digital.nuance.com/media/launch/tcFramework.min.js?codeVersion=1629354367369, line 30065: SecurityError: Permission denied to access property "CEAPI_POST_CHAT_SURVEY_DATA" on cross-origin object
+JavaScript error: https://media-us1.digital.nuance.com/media/launch/tcFramework.min.js?codeVersion=1629354367369, line 30065: SecurityError: Permission denied to access property "CEAPI_POST_CHAT_SURVEY_DATA" on cross-origin object
+JavaScript error: https://media-us1.digital.nuance.com/media/launch/tcFramework.min.js?codeVersion=1629354367369, line 30065: SecurityError: Permission denied to access property "CEAPI_POST_CHAT_SURVEY_DATA" on cross-origin object
+1629689869892	Marionette	INFO	Stopped listening on port 62294
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590007,name=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Create a shipment successful
+----------------------------------------------------------------------------
+]]></system-err>
+</testsuite>
