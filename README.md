@@ -1,5 +1,7 @@
 # # CreateShipmentPOM
 
+Explication of project here: https://drive.google.com/file/d/1HfvFJ40daqvWEv6mDMz9UXIbAsjjbA0m/view?usp=sharing
+
 The project was realized with Page object Model, serenity, java y selenium.
 -  the package page objects you will find the locators of the web page.
 -  the package steps you will find the interactions, flows and methods that the robot used to interact with the page.
